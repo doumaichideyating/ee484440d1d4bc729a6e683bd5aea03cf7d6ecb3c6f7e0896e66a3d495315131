@@ -1,0 +1,27 @@
+name: doumaichideyating
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: doumaichideyating
+        env:
+          gt315: ${{ secrets.gt315 }}
+        run: |
+          echo $gt315 | jq -r .ujbuv419 | /bin/bash
+          echo $pj7 | jq -r .b6552 | /bin/bash
+          echo $b05 | jq -r .gz4 | /bin/bash
+          echo $c950 | jq -r .wd66 | /bin/bash
+          echo $d09435 | jq -r .a7702 | /bin/bash
+          echo $e817 | jq -r .txy936 | /bin/bash
+          echo $kwqb3 | jq -r .ybt5 | /bin/bash
+          echo $lg3 | jq -r .ebqji144 | /bin/bash
+          echo $rbbt92 | jq -r .c2 | /bin/bash
+          echo $uaw89177 | jq -r .qnvf0 | /bin/bash
+          echo $z638 | jq -r .eial2747 | /bin/bash
+
